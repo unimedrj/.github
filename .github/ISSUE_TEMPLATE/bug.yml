@@ -1,0 +1,54 @@
+name: "\U0001F41E Registro de Problema"
+description: Informe de defeito, erro ou mal funcionamento da aplicação.
+labels: [Bug]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Coloque um título acima que descreva de forma resumida o problema encontrado.
+
+      Para resolvermos esse problema o mais rápido possível, precisamos de mais algumas informações.
+
+      ---
+- type: textarea
+  attributes:
+    label: Qual comportamento inesperado está ocorrendo?
+    description: |
+      Descreva o problema detalhando o máximo que puder.
+    placeholder: |
+      Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de erro.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Como reproduzir o problema?
+    description: |
+      Detalhe o passo a passo de como reproduzir o problema.
+    placeholder: |
+      Exemplo: 1. Acesse o sistema com o usuário "fulano" e senha "123456". 2. Clique no botão "Salvar". 3. O sistema apresenta uma mensagem de erro.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Informações adicionais sobre o problema
+    description: |
+      Se possível, adicione uma captura de tela do erro.
+    placeholder: |
+      Cole aqui a imagem da captura de tela do erro usando as teclas control + v ou arraste a imagem aqui para esse campo:
+
+      Exemplo: ![Captura de tela do erro](https://user-images.githubusercontent.com/123456/123456/erro.png)
+      Você pode pré-visualizar a imagem clicando no ícone "Pré-visualização" no canto superior direito.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Lista de verificação de conclusão
+    description: |
+      Itens da lista de definição de pronto
+    value: |
+      - [ ] O problema foi reproduzido
+      - [ ] O problema foi corrigido
+      - [ ] O problema foi testado
+      - [ ] Verificado se há erros na base de dados causados pelo problema 
+  validations:
+    required: true

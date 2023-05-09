@@ -1,0 +1,49 @@
+name: "\U0001F91F Solicitação de Funcionalidade"
+description: "Template para abertura de issue referentes a novas funcionalidades no sistema"
+labels: [Funcionalidade]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Coloque um título acima que descreva de forma resumida a funcionalidade desejada.
+
+      Para facilitar nosso entendimento da mudança precisamos de mais algumas informações.
+
+      ---
+- type: textarea
+  attributes:
+    label: Qual o problema a ser resolvido?
+    description: |
+      Descreva o problema que deseja resolver com a nova funcionalidade.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Quais restrições e regras devem ser observadas?
+    description: |
+      Informe aqui todas as regras de negócio que devem ser consideradas na implementação.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Qual a solução proposta?
+    description: |
+      Alguma solução que deva ser levada em consideração antes de começarmos a desenvolver.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Especificação.
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Lista de verificação de conclusão
+    description: |
+      Itens da lista de definição de pronto
+    value: |
+      - [ ] O funcionalide foi especificada
+      - [ ] O funcionalide foi desenvolvida
+      - [ ] O funcionalide foi testada  
+  validations:
+    required: true
