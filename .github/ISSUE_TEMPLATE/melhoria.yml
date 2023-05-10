@@ -1,11 +1,11 @@
-name: "\U0001F680 Solicitação de Funcionalidade"
-description: "Template para abertura de issue referentes a novas funcionalidades no sistema"
-labels: [Funcionalidade]
+name: "\U0001F680 Solicitação de Melhoria"
+description: "Template para abertura de issue referentes a melhorias no sistema"
+labels: [Melhoria]
 body:
 - type: markdown
   attributes:
     value: |
-      Coloque um título acima que descreva de forma resumida a funcionalidade desejada.
+      Coloque um título acima que descreva de forma resumida a melhoria desejada.
 
       Para facilitar nosso entendimento da mudança precisamos de mais algumas informações.
 
@@ -14,7 +14,7 @@ body:
   attributes:
     label: Qual o problema a ser resolvido?
     description: |
-      Descreva o problema que deseja resolver com a nova funcionalidade.
+      Descreva o problema que deseja resolver com a melhorias.
   validations:
     required: true
 - type: textarea

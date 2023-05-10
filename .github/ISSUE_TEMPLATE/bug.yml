@@ -1,4 +1,4 @@
-name: "\U0001F41E Registro de Problema"
+name: "\U0001F41E Registro de Bugs"
 description: Informe de defeito, erro ou mal funcionamento da aplicação.
 labels: [Bug]
 body:
@@ -17,6 +17,8 @@ body:
       Descreva o problema detalhando o máximo que puder.
     placeholder: |
       Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de erro.
+      Com que frequência ocorre o problema?
+
   validations:
     required: true
 - type: textarea
@@ -46,9 +48,7 @@ body:
     description: |
       Itens da lista de definição de pronto
     value: |
-      - [ ] O problema foi reproduzido
-      - [ ] O problema foi corrigido
-      - [ ] O problema foi testado
-      - [ ] Verificado se há erros na base de dados causados pelo problema 
+      - [ ] Implementado ou registrado uma demanda de teste para garantir que o problema não ocorra novamente
+      - [ ] Verificado e corrigidos eventuais erros na base de dados causados pelo problema
   validations:
     required: true

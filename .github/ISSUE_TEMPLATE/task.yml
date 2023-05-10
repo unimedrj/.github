@@ -1,5 +1,5 @@
 name: "\U0001F6E0 Registro de Tarefa"
-description: Tarefas de manutenção, atualização, alteração de dados.
+description: Tarefas internas de manutenção, implementação de testes e outros.
 labels: [Tarefa]
 body:
 - type: markdown
@@ -32,9 +32,6 @@ body:
     description: |
       Itens da lista de definição de pronto
     value: |
-      - [ ] A tarefa foi realizada
-      - [ ] A tarefa foi testada
-      - [ ] Verificado se há erros na base de dados causados pela tarefa
-      - [ ] A tarefa foi documentada
+      - [ ] Verificado a necessidade de criação ou atualização de um procedimento para atendimento de tarefas do mesmo tipo no futuro
   validations:
     required: true
