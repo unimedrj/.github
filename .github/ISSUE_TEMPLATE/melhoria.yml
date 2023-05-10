@@ -1,4 +1,4 @@
-name: "\U0001F680 Solicitação de Melhoria"
+name: "\U0001F6E0 Solicitação de Melhoria"
 description: "Template para abertura de issue referentes a melhorias no sistema"
 labels: [Melhoria]
 body:
