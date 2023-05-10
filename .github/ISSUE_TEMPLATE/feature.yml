@@ -1,4 +1,4 @@
-name: "\U0001F680 Solicitação de Funcionalidade"
+name: "\U0001F195 Solicitação de Funcionalidade"
 description: "Template para abertura de issue referentes a novas funcionalidades no sistema"
 labels: [Funcionalidade]
 body:
