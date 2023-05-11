@@ -52,3 +52,4 @@ body:
       - [ ] Verificado e corrigidos eventuais erros na base de dados causados pelo problema
   validations:
     required: true
+
