@@ -44,7 +44,7 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Lista de verificação de conclusão
+    label: Definição de pronto
     description: |
       Itens da lista de definição de pronto
     value: |
