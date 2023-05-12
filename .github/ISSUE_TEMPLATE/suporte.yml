@@ -10,7 +10,7 @@ body:
       ---
 - type: textarea
   attributes:
-    label: Qual a tarefa de suporte a ser realizada?
+    label: Qual o problema a ser resolvido?
     description: |
       Descreva a tarefa detalhando o máximo que puder.
     placeholder: |
@@ -24,6 +24,19 @@ body:
       Se possível, adicione uma captura de tela.
     placeholder: |
       Exemplo: Maiores informações sobre a tarefa de suporte
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Especificação
+    description: |
+      Itens da especificação da mudança
+    value: |
+      - Solução proposta
+      - Regras de negócio e validações
+      - Impactos identificados
+      - Cenários de testes de integração
+      - Planejamento de tarefas
   validations:
     required: false
 - type: textarea
