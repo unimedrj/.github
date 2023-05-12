@@ -30,12 +30,11 @@ body:
   attributes:
     label: Especificação
     description: |
-      Itens da especificação da mudança
+      Itens da especificação do suporte
     value: |
-      - Solução proposta
-      - Regras de negócio e validações
+      - Detalhamento 
       - Impactos identificados
-      - Cenários de testes de integração
+      - Cenários de testes
       - Planejamento de tarefas
   validations:
     required: false
@@ -45,7 +44,7 @@ body:
     description: |
       Itens da lista de definição de pronto
     value: |
-      - [ ] Verificado a necessidade de migração de dados e caso tenha sido feita por SQL a mesma foi documentada
+      - [ ] Verificado se a especificação foi atendida
       - [ ] Verificado a necessidade de criação ou atualização de um procedimento para atendimento de problemas do mesmo tipo no futuro
       - [ ] Verificado se existem outros casos da mesma natureza do problema atendido e se foi dada uma tratativa
       - [ ] Verificado a causa raiz do problema e se o mesmo foi corrigido ou registrado um defeito para correção
