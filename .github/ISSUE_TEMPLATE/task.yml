@@ -14,8 +14,7 @@ body:
     description: |
       Descreva a tarefa detalhando o máximo que puder.
     placeholder: |
-      Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de erro.
-  validations:
+validations:
     required: true
 - type: textarea
   attributes:
