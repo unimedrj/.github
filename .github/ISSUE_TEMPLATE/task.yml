@@ -13,7 +13,6 @@ body:
     label: Qual a tarefa a ser realizada?
     description: |
       Descreva a tarefa detalhando o máximo que puder.
-    placeholder: |
 validations:
     required: true
 - type: textarea
