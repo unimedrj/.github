@@ -31,11 +31,9 @@ body:
       Itens da especificação da mudança
     value: |
       - Solução proposta
-      - Jornada do usuário
       - Regras de negócio e validações
-      - Protótipo
       - Impactos identificados
-      - Cenários de testes de integração
+      - Cenários de testes
       - Planejamento de tarefas
   validations:
     required: false
