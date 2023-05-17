@@ -10,11 +10,11 @@ body:
       ---
 - type: textarea
   attributes:
-    label: Qual a tarefa a ser realizada?
+    label: Qual o problema a ser resolvido?
     description: |
-      Descreva a tarefa detalhando o máximo que puder.
+      Descreva o problema detalhando o máximo que puder.
     placeholder: |
-      Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de erro.
+      Exemplo: Atualizar cadastro de pretadores na base.
   validations:
     required: true
 - type: textarea
@@ -28,10 +28,23 @@ body:
     required: false
 - type: textarea
   attributes:
+    label: Especificação
+    description: |
+      Itens da especificação do suporte
+    value: |
+      - Detalhamento 
+      - Impactos identificados
+      - Cenários de testes
+      - Planejamento de tarefas
+  validations:
+    required: false
+- type: textarea
+  attributes:
     label: Definição de pronto
     description: |
       Itens da lista de definição de pronto
     value: |
+      - [ ] A especificação foi atendida
       - [ ] Verificado a necessidade de criação ou atualização de um procedimento para atendimento de tarefas do mesmo tipo no futuro
   validations:
     required: true
