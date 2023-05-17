@@ -14,7 +14,7 @@ body:
     description: |
       Descreva o problema detalhando o máximo que puder.
     placeholder: |
-      Exemplo: Atualizar cadastro de pretadores na base.
+      Exemplo: Falta de teste de criação no caminho crítico.
   validations:
     required: true
 - type: textarea
