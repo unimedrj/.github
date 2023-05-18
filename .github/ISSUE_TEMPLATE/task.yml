@@ -32,10 +32,10 @@ body:
     description: |
       Itens da especificação do suporte
     value: |
-      ##Detalhamento 
-      ##Impactos identificados
-      ##Cenários de testes
-      ##Planejamento de tarefas
+      #### Detalhamento 
+      #### Impactos identificados
+      #### Cenários de testes
+      #### Planejamento de tarefas
   validations:
     required: false
 - type: textarea
