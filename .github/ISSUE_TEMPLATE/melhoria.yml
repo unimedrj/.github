@@ -30,11 +30,11 @@ body:
     description: |
       Itens da especificação da mudança
     value: |
-      ##Solução proposta
-      ##Regras de negócio e validações
-      ##Impactos identificados
-      ##Cenários de testes
-      ##Planejamento de tarefas
+      #### Solução proposta
+      #### Regras de negócio e validações
+      #### Impactos identificados
+      #### Cenários de testes
+      #### Planejamento de tarefas
   validations:
     required: false
 - type: textarea
