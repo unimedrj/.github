@@ -15,6 +15,7 @@ body:
     label: Qual o problema a ser resolvido?
     description: |
       Descreva o problema que deseja resolver com a nova funcionalidade.
+  
   validations:
     required: true
 - type: textarea
@@ -24,7 +25,7 @@ body:
       Exemplo: Apenas um determinado usuário poderá acessar a funcionalidade e só poderá visualizar solicitações da sua unimed. 
     description: |
       Informe aqui todas as regras de negócio e validações que devem ser consideradas na implementação.
- validations:
+  validations:
     required: true
 - type: textarea
   attributes:
