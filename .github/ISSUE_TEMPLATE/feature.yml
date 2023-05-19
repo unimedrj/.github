@@ -19,10 +19,11 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Quais restrições e regras devem ser observadas?
+    label: Quais as regras de negócio e validações devem ser implementadas?
     description: |
-      Informe aqui todas as regras de negócio que devem ser consideradas na implementação.
-  validations:
+      Informe aqui todas as regras de negócio e validações que devem ser consideradas na implementação.
+      Exemplo: Apenas um determinado usuário poderá acessar / A unimed só pode visualizar solicitações dela / Todos os campos devem ser obrigatórios.  
+validations:
     required: true
 - type: textarea
   attributes:
