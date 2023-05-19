@@ -23,6 +23,17 @@ body:
     
 - type: textarea
   attributes:
+    label: Qual é o comportamento esperado?
+    description: |
+      Descreva o problema detalhando o máximo que puder.
+    placeholder: |
+      Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de erro.
+      Com que frequência ocorre o problema?
+  validations:
+    required: true    
+    
+- type: textarea
+  attributes:
     label: Como reproduzir o problema?
     description: |
       Detalhe o passo a passo de como reproduzir o problema.
