@@ -22,8 +22,8 @@ body:
     label: Quais as regras de negócio e validações devem ser implementadas?
     description: |
       Informe aqui todas as regras de negócio e validações que devem ser consideradas na implementação.
-      Exemplo: Apenas um determinado usuário poderá acessar / A unimed só pode visualizar solicitações dela / Todos os campos devem ser obrigatórios.  
-validations:
+      Exemplo: Apenas um determinado usuário poderá acessar a funcionalidade e só poderá visualizar solicitações da sua unimed. 
+  validations:
     required: true
 - type: textarea
   attributes:
