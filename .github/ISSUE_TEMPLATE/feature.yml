@@ -34,21 +34,29 @@ body:
     description: |
       Insira aqui informações adicionais, anexos e links importantes.
   validations:
-    required: true    
+    required: false
     
+- type: textarea
+  attributes:
+    label: Solução prostosta
+    description: |
+      Descreva a solução proposta para atender o problema do cliente.
+    value: |
+      - Jornada do usuário
+      - Protótipos
+      - Regras de negócio e validações
+      - Impactos identificados
+ validations:
+    required: true
+
 - type: textarea
   attributes:
     label: Especificação
     description: |
-      Itens da especificação da mudança
+      planejamento da implementação da mudança.
     value: |
-      #### Solução proposta
-      #### Jornada do usuário
-      #### Regras de negócio e validações
-      #### Protótipo
-      #### Impactos identificados
-      #### Cenários de testes de integração
-      #### Planejamento de tarefas
+      - Planejamento das tarefas e cenários de teste
+      
   validations:
     required: false
 - type: textarea
