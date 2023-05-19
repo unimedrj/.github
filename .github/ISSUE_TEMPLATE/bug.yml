@@ -56,6 +56,14 @@ body:
 
 - type: textarea
   attributes:
+    label: Especificação
+    description: |
+    placeholder: |
+ validations:
+    required: false    
+
+- type: textarea
+  attributes:
     label: Definição de preparado
     description: |
       Itens da lista de definição de preparado para desenvolvimento
