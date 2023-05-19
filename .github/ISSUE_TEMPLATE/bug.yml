@@ -28,7 +28,8 @@ body:
       Detalhe o passo a passo de como reproduzir o problema.
     placeholder: |
       Exemplo: 1. Acesse o sistema com o usuário "fulano" e senha "123456". 2. Clique no botão "Salvar". 3. O sistema apresenta uma mensagem de erro.
-  validations:
+ 
+ validations:
     required: true
 - type: textarea
   attributes:
@@ -37,8 +38,9 @@ body:
       Descreva em detalhes o comportamento esperado.
     placeholder: |
       Exemplo: Ao clicar no botão "Salvar" o usuário deve visualizar a mesnagem de sucesso.
-   validations:
-    required: true
+   
+  validations:
+     required: true
 - type: textarea
   attributes:
     label: Informações adicionais sobre o problema
