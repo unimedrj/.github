@@ -37,7 +37,7 @@ body:
     placeholder: |
       Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de sucesso.
   validations:
-    required: true    
+    required: false    
     
 - type: textarea
   attributes:
