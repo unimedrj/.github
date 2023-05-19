@@ -53,7 +53,7 @@ body:
   attributes:
     label: Especificação
     description: |
-      planejamento da implementação da mudança.
+      Planejamento da implementação da mudança.
     value: |
       - Planejamento das tarefas e cenários de teste
       
