@@ -60,6 +60,7 @@ body:
     placeholder: |
       - Critério de aceite
       - Planejamento de tarefas e cenários de testes
+      - Documentação de apoio
   validations:
     required: false    
 
@@ -73,7 +74,7 @@ body:
       - [ ] Critério de aceite definido
       - [ ] Todos os insumos necessários para resolução do problema presentes
       - [ ] Cenários de testes definidos
-      - [ ]Tempo estimado
+      - [ ] Tempo estimado
   validations:
     required: true
 
