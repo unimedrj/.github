@@ -46,7 +46,7 @@ body:
       - Protótipos
       - Regras de negócio e validações
       - Impactos identificados
- validations:
+  validations:
     required: true
 
 - type: textarea
@@ -56,9 +56,9 @@ body:
       Planejamento da implementação da mudança.
     value: |
       - Planejamento das tarefas e cenários de teste
-      
   validations:
     required: false
+    
 - type: textarea
   attributes:
     label: Definição de pronto
