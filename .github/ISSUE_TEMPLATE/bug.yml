@@ -32,6 +32,15 @@ body:
     required: true
 - type: textarea
   attributes:
+    label: Qual é o comportamento esperado?
+    description: |
+      Descreva em detalhes o comportamento esperado.
+    placeholder: |
+      Exemplo: Ao clicar no botão "Salvar" o usuário deve visualizar a mesnagem de sucesso.
+   validations:
+    required: true
+- type: textarea
+  attributes:
     label: Informações adicionais sobre o problema
     description: |
       Se possível, adicione uma captura de tela do erro.
