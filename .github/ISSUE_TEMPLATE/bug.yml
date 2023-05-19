@@ -18,9 +18,9 @@ body:
     placeholder: |
       Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de erro.
       Com que frequência ocorre o problema?
-
   validations:
     required: true
+    
 - type: textarea
   attributes:
     label: Como reproduzir o problema?
@@ -41,6 +41,7 @@ body:
       Você pode pré-visualizar a imagem clicando no ícone "Pré-visualização" no canto superior direito.
   validations:
     required: false
+
 - type: textarea
   attributes:
     label: Definição de pronto
