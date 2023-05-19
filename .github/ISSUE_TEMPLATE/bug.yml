@@ -56,9 +56,23 @@ body:
 
 - type: textarea
   attributes:
+    label: Definição de preparado
+    description: |
+      Itens da lista de definição de preparado para desenvolvimento
+    value: |
+      - [ ] Problema foi confirmado
+      - [ ] Critério de aceite definido
+      - [ ] Todos os insumos necessários para resolução do problema presentes
+      - [ ] Cenários de testes definidos
+      - [ ]Tempo estimado
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
     label: Definição de pronto
     description: |
-      Itens da lista de definição de pronto
+      Itens da lista de definição de pronto para produção
     value: |
       - [ ] Critério de aceite atendido
       - [ ] Implementado ou registrada uma demanda de teste para garantir que o problema não ocorra novamente
