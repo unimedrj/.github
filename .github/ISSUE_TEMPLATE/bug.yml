@@ -57,9 +57,7 @@ body:
 - type: textarea
   attributes:
     label: Especificação
-    description: |
-    placeholder: |
- validations:
+  validations:
     required: false    
 
 - type: textarea
