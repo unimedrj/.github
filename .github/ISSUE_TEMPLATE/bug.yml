@@ -58,8 +58,8 @@ body:
   attributes:
     label: Especificação
     placeholder: |
-      ### Critério de aceite
-      ### Cenários de teste
+      - Critério de aceite
+      - Planejamento de tarefas e cenários de testes
   validations:
     required: false    
 
