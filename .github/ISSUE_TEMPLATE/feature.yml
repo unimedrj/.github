@@ -17,7 +17,6 @@ body:
       Descreva o problema que deseja resolver com a nova funcionalidade.
   validations:
     required: true
-
 - type: textarea
   attributes:
     label: Quais as regras de negócio e validações devem ser implementadas?
@@ -27,7 +26,6 @@ body:
       Informe aqui todas as regras de negócio e validações que devem ser consideradas na implementação.
  validations:
     required: true
-    
 - type: textarea
   attributes:
     label: Especificação
