@@ -57,6 +57,9 @@ body:
 - type: textarea
   attributes:
     label: Especificação
+    description: |
+      ### Critério de aceite
+      ### Cenários de teste
   validations:
     required: false    
 
