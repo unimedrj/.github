@@ -60,7 +60,8 @@ body:
     description: |
       Itens da lista de definição de pronto
     value: |
-      - [ ] Implementado ou registrado uma demanda de teste para garantir que o problema não ocorra novamente
+      - [ ] Critério de aceite atendido
+      - [ ] Implementado ou registrada uma demanda de teste para garantir que o problema não ocorra novamente
       - [ ] Verificado e corrigidos eventuais erros na base de dados causados pelo problema
   validations:
     required: true
