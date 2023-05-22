@@ -55,7 +55,7 @@ body:
     description: |
       Itens da lista de definição de preparado para desenvolvimento
     value: |
-      - [ ] Critério de aceite definido
+      - [ ] Critérios de aceite definidos
       - [ ] Todos os insumos necessários para desenvolvimento presentes
       - [ ] Cenários de testes definidos
       - [ ] Tempo estimado
@@ -68,7 +68,7 @@ body:
     description: |
       Itens da lista de definição de pronto
     value: |
-      - [ ] A especificação foi atendida
+      - [ ] Os critérios de aceite foram atendidos
       - [ ] Todos os cenários de teste definidos foram implementados
       - [ ] Testes unitários cobrindo as regras de negócio e validações definidas na especificação
       - [ ] Todas as tarefas do planejamento foram realizadas
