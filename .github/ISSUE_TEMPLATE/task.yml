@@ -32,12 +32,24 @@ body:
     description: |
       Itens da especificação do suporte
     value: |
-      #### Detalhamento 
-      #### Impactos identificados
-      #### Cenários de testes
-      #### Planejamento de tarefas
+      Detalhamento 
+      Impactos identificados
+      Planejamento de testes e tarefas
   validations:
     required: false
+    
+    - type: textarea
+  attributes:
+    label: Definição de preparado
+    description: |
+      Itens da lista de definição de preparado para desenvolvimento
+    value: |
+      - [ ] Critério de aceite definido
+      - [ ] Todos os insumos necessários presentes
+      - [ ] Tempo estimado
+  validations:
+    required: true
+    
 - type: textarea
   attributes:
     label: Definição de pronto
