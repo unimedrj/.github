@@ -25,6 +25,18 @@ body:
   validations:
     required: true
 
+- type: textarea
+  attributes:
+    label: Solução prostosta
+    description: |
+      Descreva a solução proposta para atender o problema do cliente.
+    value: |
+      - Jornada do usuário
+      - Protótipos
+      - Regras de negócio e validações
+      - Impactos identificados
+  validations:
+    required: true
 
 - type: textarea
   attributes:
@@ -32,11 +44,7 @@ body:
     description: |
       Itens da especificação da mudança
     value: |
-      #### Solução proposta
-      #### Regras de negócio e validações
-      #### Impactos identificados
-      #### Cenários de testes
-      #### Planejamento de tarefas
+      Planejamento de cenários de testes e tarefas
   validations:
     required: false
 
