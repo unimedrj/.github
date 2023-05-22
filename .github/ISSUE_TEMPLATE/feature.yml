@@ -58,7 +58,20 @@ body:
       - Planejamento das tarefas e cenários de teste
   validations:
     required: false
-    
+
+- type: textarea
+  attributes:
+    label: Definição de preparado
+    description: |
+      Itens da lista de definição de preparado para desenvolvimento
+    value: |
+      - [ ] Critério de aceite definido
+      - [ ] Todos os insumos necessários para desenvolvimento presentes
+      - [ ] Cenários de testes definidos
+      - [ ] Tempo estimado
+  validations:
+    required: true
+
 - type: textarea
   attributes:
     label: Definição de pronto
