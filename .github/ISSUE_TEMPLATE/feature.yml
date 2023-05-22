@@ -56,7 +56,7 @@ body:
     description: |
       Planejamento da implementação da mudança.
     value: |
-      - Planejamento das tarefas e cenários de teste
+      - Planejamento de testes e tarefas.
   validations:
     required: false
 
