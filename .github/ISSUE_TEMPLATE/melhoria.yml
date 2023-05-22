@@ -27,10 +27,11 @@ body:
 
 - type: textarea
   attributes:
-    label: Solução prostosta
+    label: Solução proposta
     description: |
       Descreva a solução proposta para atender o problema do cliente.
     value: |
+      Critérios de aceite:
       - Jornada do usuário
       - Protótipos
       - Regras de negócio e validações
