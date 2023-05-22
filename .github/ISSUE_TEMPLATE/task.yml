@@ -38,7 +38,7 @@ body:
   validations:
     required: false
     
-    - type: textarea
+- type: textarea
   attributes:
     label: Definição de preparado
     description: |
