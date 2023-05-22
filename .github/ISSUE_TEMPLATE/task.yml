@@ -44,7 +44,7 @@ body:
     description: |
       Itens da lista de definição de preparado para desenvolvimento
     value: |
-      - [ ] Critério de aceite definido
+      - [ ] Planejamento definido
       - [ ] Todos os insumos necessários presentes
       - [ ] Tempo estimado
   validations:
