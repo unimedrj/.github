@@ -87,5 +87,6 @@ body:
       - [ ] Critério de aceite atendido
       - [ ] Implementado ou registrada uma demanda de teste para garantir que o problema não ocorra novamente
       - [ ] Verificado e corrigidos eventuais erros na base de dados causados pelo problema
+      - [ ] Registrados os procedimentos adicionais de deploy, caso existam.
   validations:
     required: true
