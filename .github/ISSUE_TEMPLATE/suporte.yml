@@ -48,5 +48,6 @@ body:
       - [ ] Verificado a necessidade de criação ou atualização de um procedimento para atendimento de problemas do mesmo tipo no futuro
       - [ ] Verificado se existem outros casos da mesma natureza do problema atendido e se foi dada uma tratativa
       - [ ] Verificado a causa raiz do problema e se o mesmo foi corrigido ou registrado um defeito para correção
+      - [ ] Verificada a ocorrência de erros na execução do pipeline, e caso existam, foi feita a correção ou registrada a demnada para isso.
   validations:
     required: true
