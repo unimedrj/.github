@@ -88,5 +88,6 @@ body:
       - [ ] Implementado ou registrada uma demanda de teste para garantir que o problema não ocorra novamente
       - [ ] Verificado e corrigidos eventuais erros na base de dados causados pelo problema
       - [ ] Registrados os procedimentos adicionais de deploy, caso existam.
+      - [ ] Verificada a ocorrência de erros na execução do pipeline, e caso existam, foi feita a correção ou registrada a demnada para isso. 
   validations:
     required: true
