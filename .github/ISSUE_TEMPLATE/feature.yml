@@ -83,6 +83,5 @@ body:
       - [ ] Todos os cenários de teste definidos foram implementados
       - [ ] Testes unitários cobrindo as regras de negócio e validações definidas na especificação
       - [ ] Todas as tarefas do planejamento foram realizadas
-      - [ ] Em caso de migração, foi verificada e tratada eventual indisponibilidade entre versões ou por tempo de execução, mudança no schema ou dados.
   validations:
     required: true
