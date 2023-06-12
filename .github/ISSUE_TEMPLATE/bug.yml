@@ -33,16 +33,6 @@ body:
     
 - type: textarea
   attributes:
-    label: Qual é o comportamento esperado?
-    description: |
-      Descreva o comportamento esperado da aplicação.
-    placeholder: |
-      Exemplo: Ao clicar no botão "Salvar" o sistema apresenta uma mensagem de sucesso.
-  validations:
-    required: false    
-    
-- type: textarea
-  attributes:
     label: Informações adicionais sobre o problema
     description: |
       Se possível, adicione uma captura de tela do erro.
@@ -58,8 +48,8 @@ body:
   attributes:
     label: Especificação
     placeholder: |
-      - Critério de aceite
-      - Planejamento de tarefas e cenários de testes
+      - Critério de aceite 
+      - Planejamento
       - Documentação de apoio
   validations:
     required: false    
