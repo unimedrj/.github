@@ -24,7 +24,7 @@ body:
       Informe aqui todas as regras de negócio que devem ser consideradas na implementação.
   validations:
     required: true
-    - type: textarea
+- type: textarea
   attributes:
     label: Informações adicionais
     description: |
