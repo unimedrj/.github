@@ -19,9 +19,16 @@ body:
     required: true
 - type: textarea
   attributes:
-    label: Quais restrições e regras devem ser observadas?
+    label: Quais as regras de negócio e validações devem ser observadas?
     description: |
       Informe aqui todas as regras de negócio que devem ser consideradas na implementação.
+  validations:
+    required: true
+    - type: textarea
+  attributes:
+    label: Informações adicionais
+    description: |
+      Insira aqui informações adicionais, anexos e links importantes.
   validations:
     required: true
 
@@ -31,8 +38,7 @@ body:
     description: |
       Descreva a solução proposta para atender o problema do cliente.
     value: |
-      Critérios de aceite:
-      - Jornada do usuário
+      - Critérios de aceite
       - Protótipos
       - Regras de negócio e validações
       - Impactos identificados
