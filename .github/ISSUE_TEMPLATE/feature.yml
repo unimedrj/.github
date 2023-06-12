@@ -42,8 +42,7 @@ body:
     description: |
       Descreva a solução proposta para atender o problema do cliente.
     value: |
-      Critérios de aceite:
-      - Jornada do usuário
+      - Critérios de aceite
       - Protótipos
       - Regras de negócio e validações
       - Impactos identificados
