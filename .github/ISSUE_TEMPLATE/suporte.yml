@@ -40,6 +40,17 @@ body:
     required: false
 - type: textarea
   attributes:
+    label: Definição de preparado
+    description: |
+      Itens da lista de definição de pronto
+    value: |
+      - [ ] Todos os insumos necessários para desenvolvimento presentes
+      - [ ] Cenários de testes definidos
+      - [ ] Tempo estimado a demnada para isso
+  validations:
+    required: true
+- type: textarea
+  attributes:
     label: Definição de pronto
     description: |
       Itens da lista de definição de pronto
