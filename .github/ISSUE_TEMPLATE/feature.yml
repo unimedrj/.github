@@ -83,5 +83,6 @@ body:
       - [ ] Testes unitários cobrindo as regras de negócio e validações definidas na especificação
       - [ ] Todas as tarefas do planejamento foram realizadas
       - [ ] Verificada a ocorrência de erros na execução do pipeline, e caso existam, foi feita a correção ou registrada a demnada para isso.
+      - [ ] Verificada a necessidade de atualização de dependencias na aplicação, e se confirmada, foi tratada ou registrada demanda para atualização e a QA foi comunicada
   validations:
     required: true
