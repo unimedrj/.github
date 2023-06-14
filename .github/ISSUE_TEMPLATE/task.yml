@@ -59,5 +59,6 @@ body:
       - [ ] A especificação foi atendida
       - [ ] Verificado a necessidade de criação ou atualização de um procedimento para atendimento de tarefas do mesmo tipo no futuro
       - [ ] Verificada a ocorrência de erros na execução do pipeline, e caso existam, foi feita a correção ou registrada a demnada para isso. 
+      - [ ] Verificada a necessidade de atualização de dependencias na aplicação, e se confirmada, foi tratada ou registrada demanda para atualização e a QA foi comunicada
   validations:
     required: true
