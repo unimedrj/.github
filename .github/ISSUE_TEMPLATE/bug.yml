@@ -20,7 +20,7 @@ body:
       Com que frequência ocorre o problema?
   validations:
     required: true
-    
+      ---
 - type: textarea
   attributes:
     label: Como reproduzir o problema?
