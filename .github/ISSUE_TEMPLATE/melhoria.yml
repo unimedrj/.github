@@ -17,13 +17,7 @@ body:
       Descreva o problema que deseja resolver com a melhorias.
   validations:
     required: true
-- type: textarea
-  attributes:
-    label: Quais as regras de negócio e validações devem ser observadas?
-    description: |
-      Informe aqui todas as regras de negócio que devem ser consideradas na implementação.
-  validations:
-    required: true
+    
 - type: textarea
   attributes:
     label: Informações adicionais
