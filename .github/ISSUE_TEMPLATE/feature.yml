@@ -20,16 +20,6 @@ body:
     
 - type: textarea
   attributes:
-    label: Quais as regras de negócio e validações devem ser implementadas?
-    placeholder: |
-      Exemplo: Apenas um determinado usuário poderá acessar a funcionalidade e só poderá visualizar solicitações da sua unimed. 
-    description: |
-      Informe aqui todas as regras de negócio e validações que devem ser consideradas na implementação.
-  validations:
-    required: true
-    
-- type: textarea
-  attributes:
     label: Informações adicionais
     description: |
       Insira aqui informações adicionais, anexos e links importantes.
