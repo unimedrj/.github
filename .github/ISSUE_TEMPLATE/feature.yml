@@ -20,14 +20,6 @@ body:
     
 - type: textarea
   attributes:
-    label: Informações adicionais
-    description: |
-      Insira aqui informações adicionais, anexos e links importantes.
-  validations:
-    required: false
-    
-- type: textarea
-  attributes:
     label: Solução proposta
     description: |
       Descreva a solução proposta para atender o problema do cliente.
