@@ -17,14 +17,6 @@ body:
       Descreva o problema que deseja resolver com a melhorias.
   validations:
     required: true
-    
-- type: textarea
-  attributes:
-    label: Informações adicionais
-    description: |
-      Insira aqui informações adicionais, anexos e links importantes.
-  validations:
-    required: true
 
 - type: textarea
   attributes:
