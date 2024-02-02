@@ -37,7 +37,7 @@ body:
     value: |
       - [ ] Todos os insumos necessários para desenvolvimento presentes
       - [ ] Cenários de testes definidos
-      - [ ] Tempo estimado a demnada para isso
+      - [ ] Tempo estimado a demanda para isso
   validations:
     required: true
 - type: textarea
