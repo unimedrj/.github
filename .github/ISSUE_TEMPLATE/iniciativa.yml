@@ -1,0 +1,69 @@
+name: "\U0001F9FE Solicitação de Funcionalidade"
+description: "Template para abertura de issue referentes a novas funcionalidades no sistema"
+labels: [Funcionalidade]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Coloque um título acima que descreva de forma resumida a funcionalidade desejada.
+
+      Para facilitar nosso entendimento da mudança precisamos de mais algumas informações.
+
+      ---
+- type: textarea
+  attributes:
+    label: Qual o problema a ser resolvido?
+    description: |
+      Descreva o problema que deseja resolver com a nova funcionalidade.
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Solução proposta
+    description: |
+      Descreva a solução proposta para atender o problema do cliente.
+    value: |
+      - Critérios de aceite
+      - Protótipos
+      - Regras de negócio e validações
+      - Impactos identificados
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Escopo de Testes
+    description: |
+      Planejamento da implementação da mudança.
+    value: |
+      - Planejamento de testes e tarefas.
+  validations:
+    required: false
+
+- type: textarea
+  attributes:
+    label: Definição de preparado
+    description: |
+      Itens da lista de definição de preparado para desenvolvimento
+    value: |
+      - [ ] Critérios de aceite definidos
+      - [ ] Todos os insumos necessários para desenvolvimento presentes
+      - [ ] Cenários de testes definidos
+      - [ ] Tempo estimado
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Definição de pronto
+    description: |
+      Itens da lista de definição de pronto
+    value: |
+      - [ ] Os critérios de aceite foram atendidos
+      - [ ] Todos os cenários de teste definidos foram implementados
+      - [ ] Testes unitários cobrindo as regras de negócio e validações definidas na especificação
+      - [ ] Todas as tarefas do planejamento foram realizadas
+      - [ ] Verificada a necessidade de atualização de dependencias na aplicação, e se confirmada, foi tratada ou registrada demanda para atualização e a QA foi comunicada
+  validations:
+    required: true
