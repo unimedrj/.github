@@ -1,0 +1,54 @@
+name: "\U0001F4DD Registro de Tarefa"
+description: Tarefas internas de manutenção, implementação de testes e outros.
+labels: [Tarefa]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Coloque um título acima que descreva resumidamente a tarefa a ser realizada.
+
+      ---
+- type: textarea
+  attributes:
+    label: Qual o problema a ser resolvido?
+    description: |
+      Descreva o problema detalhando o máximo que puder.
+    placeholder: |
+      Exemplo: Falta de teste de criação no caminho crítico.
+  validations:
+    required: true
+- type: textarea
+  attributes:
+    label: Especificação
+    description: |
+      Itens da especificação do suporte
+    value: |
+      Detalhamento 
+      Impactos identificados
+      Planejamento de testes e tarefas
+  validations:
+    required: false
+    
+- type: textarea
+  attributes:
+    label: Definição de preparado
+    description: |
+      Itens da lista de definição de preparado para desenvolvimento
+    value: |
+      - [ ] Planejamento definido
+      - [ ] Todos os insumos necessários presentes
+      - [ ] Tempo estimado
+  validations:
+    required: true
+    
+- type: textarea
+  attributes:
+    label: Definição de pronto
+    description: |
+      Itens da lista de definição de pronto
+    value: |
+      - [ ] A especificação foi atendida
+      - [ ] Verificado a necessidade de criação ou atualização de um procedimento para atendimento de tarefas do mesmo tipo no futuro
+      - [ ] Verificada a necessidade de atualização de dependencias na aplicação, e se confirmada, foi tratada ou registrada demanda para atualização e a QA foi comunicada
+  validations:
+    required: true
