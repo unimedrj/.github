@@ -54,16 +54,4 @@ body:
   validations:
     required: true
 
-- type: textarea
-  attributes:
-    label: Definição de pronto
-    description: |
-      Itens da lista de definição de pronto
-    value: |
-      - [ ] Os critérios de aceite foram atendidos
-      - [ ] Todos os cenários de teste definidos foram implementados
-      - [ ] Testes unitários cobrindo as regras de negócio e validações definidas na especificação
-      - [ ] Todas as tarefas do planejamento foram realizadas
-      - [ ] Verificada a necessidade de atualização de dependencias na aplicação, e se confirmada, foi tratada ou registrada demanda para atualização e a QA foi comunicada
-  validations:
-    required: true
+
